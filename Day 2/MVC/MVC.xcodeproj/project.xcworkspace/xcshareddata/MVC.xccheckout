@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D347FEE3-7ED5-455C-8514-0ECF56C9526A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MVC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB207939-2049-4409-B215-C21759444131</key>
+		<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day 2/MVC/MVC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB207939-2049-4409-B215-C21759444131</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB207939-2049-4409-B215-C21759444131</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB207939-2049-4409-B215-C21759444131</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSFoundations</string>
+		</dict>
+	</array>
+</dict>
+</plist>
