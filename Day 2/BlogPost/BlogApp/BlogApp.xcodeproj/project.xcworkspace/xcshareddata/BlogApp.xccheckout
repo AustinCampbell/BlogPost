@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0C6A59FF-5A3F-4E18-947D-8BCCD4DB2825</string>
+	<string>2602ADDE-2096-438B-B2C2-2F5448975677</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Applying MVC</string>
+	<string>BlogApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>13B48FCD-3477-446B-892C-269F1CC67A6B</key>
 		<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Day 2/Applying MVC/Applying MVC/Applying MVC.xcodeproj/project.xcworkspace</string>
+	<string>Day 2/BlogPost/BlogApp/BlogApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>13B48FCD-3477-446B-892C-269F1CC67A6B</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>13B48FCD-3477-446B-892C-269F1CC67A6B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Applying MVC</string>
+			<string>iOSFoundations</string>
 		</dict>
 	</array>
 </dict>

@@ -1,14 +1,14 @@
 //
 //  main.m
-//  Applying MVC
+//  BlogApp
 //
-//  Created by Austin Campbell on 5/12/14.
+//  Created by Austin Campbell on 5/13/14.
 //  Copyright (c) 2014 Code Follows. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "BlogPost.h"
+#import "AppDelegate.h"
 
 int main(int argc, char * argv[])
 {
