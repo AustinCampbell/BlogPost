@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>442EA278-45C1-4BCB-9020-587734DA5D2B</string>
+	<string>A6F9785A-CE4F-4984-8F54-BFF17821BEB9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TaskApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>13B48FCD-3477-446B-892C-269F1CC67A6B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BlogApp</string>
+			<string>TaskApp</string>
 		</dict>
 	</array>
 </dict>

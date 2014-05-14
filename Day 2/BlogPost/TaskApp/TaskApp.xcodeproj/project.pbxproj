@@ -21,6 +21,8 @@
 		D9118BA71922FD5400EDECFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B891922FD5400EDECFC /* UIKit.framework */; };
 		D9118BAF1922FD5400EDECFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9118BAD1922FD5400EDECFC /* InfoPlist.strings */; };
 		D9118BB11922FD5400EDECFC /* TaskAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118BB01922FD5400EDECFC /* TaskAppTests.m */; };
+		D9118BBC1922FD6F00EDECFC /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118BBB1922FD6F00EDECFC /* Task.m */; };
+		D9118BC01922FEDE00EDECFC /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118BBF1922FEDE00EDECFC /* TaskTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D9118BAC1922FD5400EDECFC /* TaskAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskAppTests-Info.plist"; sourceTree = "<group>"; };
 		D9118BAE1922FD5400EDECFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9118BB01922FD5400EDECFC /* TaskAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskAppTests.m; sourceTree = "<group>"; };
+		D9118BBA1922FD6F00EDECFC /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		D9118BBB1922FD6F00EDECFC /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		D9118BBE1922FEDE00EDECFC /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		D9118BBF1922FEDE00EDECFC /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		D9118B791922FD5400EDECFC = {
 			isa = PBXGroup;
 			children = (
+				D9118BBD1922FDFD00EDECFC /* Model */,
 				D9118B8B1922FD5400EDECFC /* TaskApp */,
 				D9118BAA1922FD5400EDECFC /* TaskAppTests */,
 				D9118B841922FD5400EDECFC /* Frameworks */,
@@ -117,6 +124,8 @@
 				D9118B971922FD5400EDECFC /* Main.storyboard */,
 				D9118B9A1922FD5400EDECFC /* ViewController.h */,
 				D9118B9B1922FD5400EDECFC /* ViewController.m */,
+				D9118BBE1922FEDE00EDECFC /* TaskTableViewCell.h */,
+				D9118BBF1922FEDE00EDECFC /* TaskTableViewCell.m */,
 				D9118B9D1922FD5400EDECFC /* Images.xcassets */,
 				D9118B8C1922FD5400EDECFC /* Supporting Files */,
 			);
@@ -150,6 +159,15 @@
 				D9118BAD1922FD5400EDECFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9118BBD1922FDFD00EDECFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9118BBA1922FD6F00EDECFC /* Task.h */,
+				D9118BBB1922FD6F00EDECFC /* Task.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9118B9C1922FD5400EDECFC /* ViewController.m in Sources */,
+				D9118BBC1922FD6F00EDECFC /* Task.m in Sources */,
+				D9118BC01922FEDE00EDECFC /* TaskTableViewCell.m in Sources */,
 				D9118B961922FD5400EDECFC /* AppDelegate.m in Sources */,
 				D9118B921922FD5400EDECFC /* main.m in Sources */,
 			);

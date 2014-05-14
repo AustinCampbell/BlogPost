@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "Task.h"
 
 @interface ViewController ()
+
+static NSString * const TaskCellIdentifier =@"TaskCell";
+@property (strong, nonatomic)NSArray *posts;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end
 
@@ -17,7 +23,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	for (int i = 0; i < 10; i++) {
+        Task *post = [[task alloc]init];
+    }
 }
 
 - (void)didReceiveMemoryWarning

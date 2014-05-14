@@ -1,13 +1,15 @@
 //
-//  Post.m
-//  Applying MVC
+//  INTask.m
+//  TaskApp
 //
 //  Created by Austin Campbell on 5/13/14.
 //  Copyright (c) 2014 Code Follows. All rights reserved.
 //
 
-#import "Post.h"
+#import "Task.h"
 
-@implementation Post
+@implementation INTask
+
+-instancetype
 
 @end
