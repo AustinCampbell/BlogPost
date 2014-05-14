@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9118B861922FD5400EDECFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B851922FD5400EDECFC /* Foundation.framework */; };
+		D9118B881922FD5400EDECFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B871922FD5400EDECFC /* CoreGraphics.framework */; };
+		D9118B8A1922FD5400EDECFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B891922FD5400EDECFC /* UIKit.framework */; };
+		D9118B901922FD5400EDECFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9118B8E1922FD5400EDECFC /* InfoPlist.strings */; };
+		D9118B921922FD5400EDECFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118B911922FD5400EDECFC /* main.m */; };
+		D9118B961922FD5400EDECFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118B951922FD5400EDECFC /* AppDelegate.m */; };
+		D9118B991922FD5400EDECFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9118B971922FD5400EDECFC /* Main.storyboard */; };
+		D9118B9C1922FD5400EDECFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118B9B1922FD5400EDECFC /* ViewController.m */; };
+		D9118B9E1922FD5400EDECFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9118B9D1922FD5400EDECFC /* Images.xcassets */; };
+		D9118BA51922FD5400EDECFC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118BA41922FD5400EDECFC /* XCTest.framework */; };
+		D9118BA61922FD5400EDECFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B851922FD5400EDECFC /* Foundation.framework */; };
+		D9118BA71922FD5400EDECFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9118B891922FD5400EDECFC /* UIKit.framework */; };
+		D9118BAF1922FD5400EDECFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9118BAD1922FD5400EDECFC /* InfoPlist.strings */; };
+		D9118BB11922FD5400EDECFC /* TaskAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9118BB01922FD5400EDECFC /* TaskAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9118BA81922FD5400EDECFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9118B7A1922FD5400EDECFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9118B811922FD5400EDECFC;
+			remoteInfo = TaskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9118B821922FD5400EDECFC /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9118B851922FD5400EDECFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9118B871922FD5400EDECFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9118B891922FD5400EDECFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9118B8D1922FD5400EDECFC /* TaskApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskApp-Info.plist"; sourceTree = "<group>"; };
+		D9118B8F1922FD5400EDECFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9118B911922FD5400EDECFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9118B931922FD5400EDECFC /* TaskApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskApp-Prefix.pch"; sourceTree = "<group>"; };
+		D9118B941922FD5400EDECFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9118B951922FD5400EDECFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9118B981922FD5400EDECFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9118B9A1922FD5400EDECFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9118B9B1922FD5400EDECFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9118B9D1922FD5400EDECFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D9118BA31922FD5400EDECFC /* TaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9118BA41922FD5400EDECFC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D9118BAC1922FD5400EDECFC /* TaskAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaskAppTests-Info.plist"; sourceTree = "<group>"; };
+		D9118BAE1922FD5400EDECFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9118BB01922FD5400EDECFC /* TaskAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9118B7F1922FD5400EDECFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118B881922FD5400EDECFC /* CoreGraphics.framework in Frameworks */,
+				D9118B8A1922FD5400EDECFC /* UIKit.framework in Frameworks */,
+				D9118B861922FD5400EDECFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9118BA01922FD5400EDECFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118BA51922FD5400EDECFC /* XCTest.framework in Frameworks */,
+				D9118BA71922FD5400EDECFC /* UIKit.framework in Frameworks */,
+				D9118BA61922FD5400EDECFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9118B791922FD5400EDECFC = {
+			isa = PBXGroup;
+			children = (
+				D9118B8B1922FD5400EDECFC /* TaskApp */,
+				D9118BAA1922FD5400EDECFC /* TaskAppTests */,
+				D9118B841922FD5400EDECFC /* Frameworks */,
+				D9118B831922FD5400EDECFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9118B831922FD5400EDECFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9118B821922FD5400EDECFC /* TaskApp.app */,
+				D9118BA31922FD5400EDECFC /* TaskAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9118B841922FD5400EDECFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9118B851922FD5400EDECFC /* Foundation.framework */,
+				D9118B871922FD5400EDECFC /* CoreGraphics.framework */,
+				D9118B891922FD5400EDECFC /* UIKit.framework */,
+				D9118BA41922FD5400EDECFC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9118B8B1922FD5400EDECFC /* TaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9118B941922FD5400EDECFC /* AppDelegate.h */,
+				D9118B951922FD5400EDECFC /* AppDelegate.m */,
+				D9118B971922FD5400EDECFC /* Main.storyboard */,
+				D9118B9A1922FD5400EDECFC /* ViewController.h */,
+				D9118B9B1922FD5400EDECFC /* ViewController.m */,
+				D9118B9D1922FD5400EDECFC /* Images.xcassets */,
+				D9118B8C1922FD5400EDECFC /* Supporting Files */,
+			);
+			path = TaskApp;
+			sourceTree = "<group>";
+		};
+		D9118B8C1922FD5400EDECFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9118B8D1922FD5400EDECFC /* TaskApp-Info.plist */,
+				D9118B8E1922FD5400EDECFC /* InfoPlist.strings */,
+				D9118B911922FD5400EDECFC /* main.m */,
+				D9118B931922FD5400EDECFC /* TaskApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9118BAA1922FD5400EDECFC /* TaskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9118BB01922FD5400EDECFC /* TaskAppTests.m */,
+				D9118BAB1922FD5400EDECFC /* Supporting Files */,
+			);
+			path = TaskAppTests;
+			sourceTree = "<group>";
+		};
+		D9118BAB1922FD5400EDECFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9118BAC1922FD5400EDECFC /* TaskAppTests-Info.plist */,
+				D9118BAD1922FD5400EDECFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9118B811922FD5400EDECFC /* TaskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9118BB41922FD5400EDECFC /* Build configuration list for PBXNativeTarget "TaskApp" */;
+			buildPhases = (
+				D9118B7E1922FD5400EDECFC /* Sources */,
+				D9118B7F1922FD5400EDECFC /* Frameworks */,
+				D9118B801922FD5400EDECFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskApp;
+			productName = TaskApp;
+			productReference = D9118B821922FD5400EDECFC /* TaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9118BA21922FD5400EDECFC /* TaskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9118BB71922FD5400EDECFC /* Build configuration list for PBXNativeTarget "TaskAppTests" */;
+			buildPhases = (
+				D9118B9F1922FD5400EDECFC /* Sources */,
+				D9118BA01922FD5400EDECFC /* Frameworks */,
+				D9118BA11922FD5400EDECFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9118BA91922FD5400EDECFC /* PBXTargetDependency */,
+			);
+			name = TaskAppTests;
+			productName = TaskAppTests;
+			productReference = D9118BA31922FD5400EDECFC /* TaskAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9118B7A1922FD5400EDECFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Code Follows";
+				TargetAttributes = {
+					D9118BA21922FD5400EDECFC = {
+						TestTargetID = D9118B811922FD5400EDECFC;
+					};
+				};
+			};
+			buildConfigurationList = D9118B7D1922FD5400EDECFC /* Build configuration list for PBXProject "TaskApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9118B791922FD5400EDECFC;
+			productRefGroup = D9118B831922FD5400EDECFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9118B811922FD5400EDECFC /* TaskApp */,
+				D9118BA21922FD5400EDECFC /* TaskAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9118B801922FD5400EDECFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118B9E1922FD5400EDECFC /* Images.xcassets in Resources */,
+				D9118B901922FD5400EDECFC /* InfoPlist.strings in Resources */,
+				D9118B991922FD5400EDECFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9118BA11922FD5400EDECFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118BAF1922FD5400EDECFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9118B7E1922FD5400EDECFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118B9C1922FD5400EDECFC /* ViewController.m in Sources */,
+				D9118B961922FD5400EDECFC /* AppDelegate.m in Sources */,
+				D9118B921922FD5400EDECFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9118B9F1922FD5400EDECFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9118BB11922FD5400EDECFC /* TaskAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9118BA91922FD5400EDECFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9118B811922FD5400EDECFC /* TaskApp */;
+			targetProxy = D9118BA81922FD5400EDECFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9118B8E1922FD5400EDECFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9118B8F1922FD5400EDECFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9118B971922FD5400EDECFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9118B981922FD5400EDECFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9118BAD1922FD5400EDECFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9118BAE1922FD5400EDECFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9118BB21922FD5400EDECFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9118BB31922FD5400EDECFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9118BB51922FD5400EDECFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskApp/TaskApp-Prefix.pch";
+				INFOPLIST_FILE = "TaskApp/TaskApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9118BB61922FD5400EDECFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskApp/TaskApp-Prefix.pch";
+				INFOPLIST_FILE = "TaskApp/TaskApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9118BB81922FD5400EDECFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskApp.app/TaskApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskApp/TaskApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TaskAppTests/TaskAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D9118BB91922FD5400EDECFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaskApp.app/TaskApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaskApp/TaskApp-Prefix.pch";
+				INFOPLIST_FILE = "TaskAppTests/TaskAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9118B7D1922FD5400EDECFC /* Build configuration list for PBXProject "TaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9118BB21922FD5400EDECFC /* Debug */,
+				D9118BB31922FD5400EDECFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9118BB41922FD5400EDECFC /* Build configuration list for PBXNativeTarget "TaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9118BB51922FD5400EDECFC /* Debug */,
+				D9118BB61922FD5400EDECFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9118BB71922FD5400EDECFC /* Build configuration list for PBXNativeTarget "TaskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9118BB81922FD5400EDECFC /* Debug */,
+				D9118BB91922FD5400EDECFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9118B7A1922FD5400EDECFC /* Project object */;
+}
