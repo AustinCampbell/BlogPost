@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>711C7190-D0A7-4617-8A49-99589FDC48D7</string>
+	<string>70E7C94E-3818-4C45-8D6B-8A161D33B0A2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>BlogApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>13B48FCD-3477-446B-892C-269F1CC67A6B</key>
+		<key>212B6933-0613-4D44-AFA5-3E6E0B1E425B</key>
 		<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Day 2/BlogPost/BlogApp/BlogApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>13B48FCD-3477-446B-892C-269F1CC67A6B</key>
+		<key>212B6933-0613-4D44-AFA5-3E6E0B1E425B</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>13B48FCD-3477-446B-892C-269F1CC67A6B</string>
+	<string>212B6933-0613-4D44-AFA5-3E6E0B1E425B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>13B48FCD-3477-446B-892C-269F1CC67A6B</string>
+			<string>212B6933-0613-4D44-AFA5-3E6E0B1E425B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>BlogApp</string>
+			<string>iOSFoundations</string>
 		</dict>
 	</array>
 </dict>
