@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5B631B19-DA58-47D6-94D7-628C3CFC9D87</string>
+	<string>F8EB89C1-9718-4963-B471-E08A911C11C1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Adventure</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Adventure/Adventure.xcodeproj/project.xcworkspace</string>
+	<string>coreLocation-mapKit/Adventure.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FCD89ACA-2443-4549-8BD9-A9BF3610D01A</key>
