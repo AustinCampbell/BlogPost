@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>885076E1-4AA2-4CE4-B9EA-515C16150185</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Applying MVC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCD89ACA-2443-4549-8BD9-A9BF3610D01A</key>
+		<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIImagePickerController/Applying MVC.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCD89ACA-2443-4549-8BD9-A9BF3610D01A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AustinCampbell/iOSFoundations.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCD89ACA-2443-4549-8BD9-A9BF3610D01A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCD89ACA-2443-4549-8BD9-A9BF3610D01A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSFoundations</string>
+		</dict>
+	</array>
+</dict>
+</plist>
