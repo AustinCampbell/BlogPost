@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ACPhotoCell : UICollectionViewCell
+@interface PhotoCell : UICollectionViewCell
 
-@property (nonatomic, weak)IBOutlet UIImageView *puppyView;
+@property (nonatomic, weak) IBOutlet UIImageView *puppyView;
 
 @end

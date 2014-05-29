@@ -27,12 +27,11 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(self.bounds, 1, 1)];
-    [[UIColor blueColor]setFill];
-    
-    [path fill];
-    
-}
+   UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(self.bounds, 1, 1)];
+   [[UIColor blueColor]setFill];
+   
+  [path fill];
+   }
 
 
 @end
