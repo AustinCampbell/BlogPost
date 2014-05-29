@@ -7,12 +7,14 @@
 //
 
 #import "ACViewController.h"
+#import "ACBubbleView.h"
 
 
 @interface ACViewController ()
 
 
-@property (strong, nonatomic) UIView *bubbleView;
+@property (strong, nonatomic) ACBubbleView *bubbleView;
+@property (strong, nonatomic) ACBubbleView *innerBubble;
 @property (strong, nonatomic) UIDynamicAnimator *animator;
 @property (strong, nonatomic) UIGravityBehavior *gravity;
 @property (strong, nonatomic) UICollisionBehavior * collision;
@@ -29,30 +31,48 @@
     
  	CGRect bubbleView = CGRectMake(120, 0, 60, 60);
    
-    _bubbleView = [[UIView alloc]initWithFrame:bubbleView];
-    _bubbleView.backgroundColor = [UIColor cyanColor];
-    _bubbleView.layer.borderColor = [UIColor blueColor].CGColor;
-    _bubbleView.layer.borderWidth = 1.f;
-     _bubbleView.layer.cornerRadius = _bubbleView.frame.size.width / 2.0;
+    _bubbleView = [[ACBubbleView alloc]initWithFrame:bubbleView];
+   // _bubbleView.backgroundColor = [UIColor cyanColor];
+   // _bubbleView.layer.borderColor = [UIColor blueColor].CGColor;
+//    _bubbleView.layer.borderWidth = 1.f;
+//     _bubbleView.layer.cornerRadius = _bubbleView.frame.size.width / 2.0;
     [self.view addSubview:_bubbleView];
-   
+    
+    CGRect innerBubble = CGRectMake(30, 30, 20, 20);
+    _innerBubble = [[UIView alloc]initWithFrame:innerBubble];
+    _innerBubble.backgroundColor = [UIColor purpleColor];
+    _innerBubble.layer.borderColor = [UIColor redColor].CGColor;
+    _innerBubble.layer.borderWidth = 1.f;
+    _innerBubble.layer.cornerRadius = _innerBubble.frame.size.width / 2.0;
+    [_bubbleView addSubview:_innerBubble];
+    
+    [_innerBubble.layer addAnimation:[self pulseOpacityAnimation] forKey:@"pulse opacity"];
+    
+    
     
     [_bubbleView.layer addAnimation:[self pulseOpacityAnimation] forKey:@"pulse opacity"];
-    
+
     [self setUpGravity];
     
     
+
     }
+
+
+
 
 
 - (void)setUpGravity
 {
     _animator = [[UIDynamicAnimator alloc]initWithReferenceView:self.view];
-    _gravity = [[UIGravityBehavior alloc]initWithItems:@[_bubbleView]];
+    _gravity = [[UIGravityBehavior alloc]initWithItems:@[_bubbleView, _innerBubble]];
     [_animator addBehavior:_gravity];
-    _collision = [[UICollisionBehavior alloc]initWithItems:@[_bubbleView]];
+    _collision = [[UICollisionBehavior alloc]initWithItems:@[_bubbleView ]];
     _collision.translatesReferenceBoundsIntoBoundary = YES;
+    UIBezierPath *bubbleBoundsPath = [UIBezierPath bezierPathWithOvalInRect:self.bubbleView.frame];
+    [_collision addBoundaryWithIdentifier:@"bubbleBoundsPath" forPath:bubbleBoundsPath];
     [_animator addBehavior:_collision];
+    
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
